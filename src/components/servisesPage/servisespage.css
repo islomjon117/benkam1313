@@ -1,12 +1,20 @@
 .servisespg {
+    padding-top: 200px;
 }
 
 .box_icon {
   background: #000;
+  width: 80px;
+  height: 80px;
 }
 
 .servises_box {
   border: 2px solid #000;
-  width: 15%;
-  height: 200px;
+  width: 25%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
