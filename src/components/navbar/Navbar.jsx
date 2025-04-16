@@ -22,15 +22,12 @@ const Navbar = () => {
               </div>
 
               <div className="nav_links">
-                <ScrollLink
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                  offset={-100}
-                  style={{ cursor: "pointer" }}
+                <Link
+                  to="/"
+             
                 >
                   home
-                </ScrollLink>
+                </Link>
                 <ScrollLink
                   to="about"
                   smooth={true}

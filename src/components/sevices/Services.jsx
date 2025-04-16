@@ -4,6 +4,7 @@ import { MdOutlineFactory } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { TbReportAnalytics } from "react-icons/tb";
 import { TbBuildingSkyscraper } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -21,20 +22,21 @@ const Services = () => {
             </div>
 
             <div className="services_boxs">
-                
-              <div className="services_box">
-                <span>
-                  <MdOutlineFactory />
-                </span>
-                <div className="box_title">
-                  <h2>Building Materials</h2>
+                <div className="services_box">
+              <Link to='/servises'>
+                  <span>
+                    <MdOutlineFactory />
+                  </span>
+                  <div className="box_title">
+                    <h2>Building Materials</h2>
+                  </div>
+                  <div className="box_short_info">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+                  </div>
+              </Link>
                 </div>
-                <div className="box_short_info">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
-                </div>
-              </div>
-
               <div className="services_box">
+              <Link to='/servises'>
                 <span>
                   <FaPeopleGroup />
                 </span>
@@ -42,9 +44,11 @@ const Services = () => {
                 <div className="box_short_info">
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
                 </div>
+                </Link>
               </div>
 
               <div className="services_box">
+              <Link to='/servises'>
                 <span>
                   <TbReportAnalytics />
                 </span>
@@ -52,9 +56,11 @@ const Services = () => {
                 <div className="box_short_info">
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
                 </div>
+                </Link>
               </div>
 
               <div className="services_box">
+              <Link to='/servises'>
                 <span>
                   <TbBuildingSkyscraper />
                 </span>
@@ -62,8 +68,8 @@ const Services = () => {
                 <div className="box_short_info">
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
                 </div>
+                </Link>
               </div>
-
             </div>
           </div>
         </div>

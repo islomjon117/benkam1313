@@ -3,6 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import MainLayouts from "./Layouts/MainLayouts";
 import Homepage from "./pages/Homepage";
 import AboutPage from "./pages/AboutPage";
+import Servisespg from "./components/servisesPage/Servisespg";
 
 function App() {
   const routes = createBrowserRouter(
@@ -10,6 +11,7 @@ function App() {
       <Route element={<MainLayouts />}>
         <Route path="/" element={<Homepage/>} />
         <Route path="/about" element={<AboutPage/>}/>
+        <Route path="/servises" element={<Servisespg/>}/>
       </Route>
     )
   );

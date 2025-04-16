@@ -99,3 +99,5 @@
 .services_box:hover .box_short_info{
     color: white;
 }
+
+.services_box a{color: #000;}
